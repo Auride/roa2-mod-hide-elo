@@ -1,5 +1,7 @@
 # roa2-mod-hide-elo
-This is a mod for the Steam version of Rivals of Aether II (Rivals 2) which hides your and your opponent's Elo rating from all interfaces. To use it, simply run the .exe file (which you can download from [here](https://github.com/Auride/roa2-mod-hide-elo/releases)) while Rivals 2 is running. Running it again will toggle the mod back off, and changing menus or starting a new ranked set should cause your Elo to appear (or disappear) again.
+This is a mod for the Steam version of Rivals of Aether II (Rivals 2) which hides your and your opponent's Elo rating from all interfaces. This change is only visible on your end (client-side), and does not affect your online opponents at all.
+
+To use it, simply run the .exe file (which you can download from [here](https://github.com/Auride/roa2-mod-hide-elo/releases)) while Rivals 2 is running. Running it again will toggle the mod back off, and changing menus or starting a new ranked set should cause your Elo to appear (or disappear) again.
 
 To completely avoid seeing your Elo score, make sure to run the executable file before going past the first "Press Start" screen upon starting up the game. You can run the .exe file pretty much as soon as you see the black window (or fullscreen black) appear after starting Rivals of Aether II, but you may wish to wait until the ROA II game icon appears in your taskbar. You will know it worked if, in the top right of the main menu, you see only a Master icon (regardless of your actual rank) and no Elo number.
 
