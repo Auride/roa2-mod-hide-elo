@@ -20,6 +20,7 @@ This mod is compatible with these versions of ROA2 on Windows. You can check you
 - `hideElo-2.0`
   - Note: From this version onwards, the uses AOB scanning rather than static offsets, making it slower to apply (Around 1 second vs <50ms with previouss versions). The benefit is that it should continue working through most game updates.
   - 11-28-2024-12750 - [release]
+  - 11-30-2024 12786 - [release]
 
 If your version is not listed, it may or may not be compatible with the latest version of the mod.
 
