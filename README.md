@@ -21,6 +21,8 @@ This mod is compatible with these versions of ROA2 on Windows. You can check you
   - Note: From this version onwards, the uses AOB scanning rather than static offsets, making it slower to apply (Around 1 second vs <50ms with previouss versions). The benefit is that it should continue working through most game updates.
   - 11-28-2024-12750 - [release]
   - 11-30-2024 12786 - [release]
+- `hideElo-2.1`
+  - version 1.1.3 - 02-18-2025 - 15113 - [release]
 
 If your version is not listed, it may or may not be compatible with the latest version of the mod.
 
@@ -33,11 +35,11 @@ A pre-built .exe file is provided under the [Releases](https://github.com/Auride
    4. Open the folder you downloaded the .7z file to, then right click on it and click "Extract All..."
    5. In the window which opens, click "Browse" and then navigate to your `C:\` drive (or any other desired location), then click "Select Folder" and click the "Extract" button. Wait for a minute or two while it decompresses.
    6. Press the Windows key, then type "Env" and click "Edit the System Environment Variables". If this doesn't appear, open Windows Settings, click "System" in the top left, scroll down and click "About", click "Advanced System Settings" in the middle of the window, and click "Environment Variables" at the bottom of the smaller window which appears.
-   7. In either the "User variables for <username>" or "System variables" section (it doesn't really matter which), find the "Path" variable, click it once, and then click "Edit...".
+   7. In either the "User variables for &lt;username&gt;" or "System variables" section (it doesn't really matter which), find the "Path" variable, click it once, and then click "Edit...".
    9. On the top right of the small window which pops up, click "New", then type `C:\mingw64\bin`. If you extracted  the .7z file somewhere else, you'll need to find where, click "Browse..." after clicking New, then navigate to the bin file inside that location. Note that you must extract the .7z file first.
    10. Press "OK" until all those windows are closed.
-2. Download the `hideElo-2.0.c` file anywhere.
+2. Download the `hideElo-2.1.c` file anywhere.
 3. Open file explorer to the folder you downloaded the .c file to.
 4. Right click (or Shift + right click) anyhere in the folder *not* on a file, then click "Open in Terminal" or "Open PowerShell window here". There's no difference.
-5. Type `gcc hideElo-2.0.c -o hideElo-2.0.exe` and press enter. This should generate the .exe file. It should be about 70 kilobytes (very small!).
-6. Either double click the executable to run it, or in the same terminal window as before, type "./hideElo-2.0.exe". The latter will let you see the debug output of the mod.
+5. Type `gcc hideElo-2.1.c -o hideElo-2.1.exe` and press enter. This should generate the .exe file. It should be about 70 kilobytes (very small!).
+6. Either double click the executable to run it, or in the same terminal window as before, type "./hideElo-2.1.exe". The latter will let you see the debug output of the mod.
