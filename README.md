@@ -24,7 +24,9 @@ This mod is compatible with these versions of ROA2 on Windows. You can check you
 - `hideElo-2.1`
   - version 1.1.3 - 02-18-2025 - 15113 - [release]
 - `hideElo-2.2`
-  - version 1.1.4 - 03-05-2025 - 15726 - [release] 
+  - version 1.1.4 - 03-05-2025 - 15726 - [release]
+- `hideElo-3.0`
+  - version 1.2.0 - 04-08-2025 - 16911 - [release]
 
 If your version is not listed, it may or may not be compatible with the latest version of the mod.
 
@@ -40,8 +42,9 @@ A pre-built .exe file is provided under the [Releases](https://github.com/Auride
    7. In either the "User variables for &lt;username&gt;" or "System variables" section (it doesn't really matter which), find the "Path" variable, click it once, and then click "Edit...".
    9. On the top right of the small window which pops up, click "New", then type `C:\mingw64\bin`. If you extracted  the .7z file somewhere else, you'll need to find where, click "Browse..." after clicking New, then navigate to the bin file inside that location. Note that you must extract the .7z file first.
    10. Press "OK" until all those windows are closed.
-2. Download the `hideElo-2.2.c` file anywhere.
+2. Download the `hideElo-3.0.c` file anywhere.
 3. Open file explorer to the folder you downloaded the .c file to.
 4. Right click (or Shift + right click) anyhere in the folder *not* on a file, then click "Open in Terminal" or "Open PowerShell window here". There's no difference.
-5. Type `gcc hideElo-2.2.c -o hideElo-2.2.exe` and press enter. This should generate the .exe file. It should be about 70 kilobytes (very small!).
-6. Either double click the executable to run it, or in the same terminal window as before, type "./hideElo-2.2.exe". The latter will let you see the debug output of the mod.
+5. Type `gcc hideElo-3.0.c -o hideElo-3.0.exe` and press enter. This should generate the .exe file. It should be about 70 kilobytes (very small!).
+6. Either double click the executable to run it, or in the same terminal window as before, type "./hideElo-3.0.exe". The latter will let you see the debug output of the mod.
+   - **Note** As of version 3.0, you can rename the .exe file so that the part before the .exe ends in "r1" through "r8". This will change which ranked icon is displayed for all Elo values. r1 is Stone, r2 is Bronze, r8 is Grandmaster, etc.. By default, the Aetherian icon is used. For example, changing the name to `hideElo-3.0r1.exe` will cause it to patch the game to use the Stone icon everywhere instead of Aetherian. This is a purely aesthetic tweak.
